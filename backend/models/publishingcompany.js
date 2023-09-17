@@ -14,7 +14,7 @@ module.exports = (sequelize, DataTypes) => {
     }
   }
   PublishingCompany.init({
-    description: DataTypes.STRING
+    publishing_company_description: DataTypes.STRING
   }, {
     sequelize,
     modelName: 'PublishingCompany',
