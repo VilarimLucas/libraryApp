@@ -47,9 +47,9 @@ npx sequelize db:migrate
 
 npx eslint --init
 ```
-- Need to install the following packages: eslint@8.51.0 Ok to proceed (y) : <b style="color:blue; font-side:18px">y</b>
+- Need to install the following packages: eslint@8.51.0 Ok to proceed (y) : <b style="color:blue; font-side:25px">y</b>
 
-- How would you like to use ESLint: <b style="color:blue; font-side:18px">To check syntax, find problems, and enforce code style</b>
+- How would you like to use ESLint: <b style="color:blue; font-side:25px">To check syntax, find problems, and enforce code style</b>
 
 
 
