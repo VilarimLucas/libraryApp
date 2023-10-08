@@ -47,11 +47,13 @@ npx sequelize db:migrate
 
 npx eslint --init
 ```
-- Need to install the following packages: eslint@8.51.0 Ok to proceed (y) : <b style="color:blue; font-side:25px">y</b>
+- Need to install the following packages: eslint@8.51.0 Ok to proceed (y) : <b style="color:blue">y</b>
 
-- How would you like to use ESLint: <b style="color:blue; font-side:25px">To check syntax, find problems, and enforce code style</b>
+- How would you like to use ESLint: <b style="color:blue">To check syntax, find problems, and enforce code style</b>
 
+- What type of modules does your project use: <b style="color:blue">ComonJS (require/exports)</b>
 
+- Which framework does your project use: <b style="color:blue">None of these</b>
 
 ### 3. Para rodar a API é necessário o seguinte comando no Powershell
 ```powershell
