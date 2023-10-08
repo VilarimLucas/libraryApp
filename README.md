@@ -55,6 +55,28 @@ npx eslint --init
 
 - Which framework does your project use: <b style="color:blue">None of these</b>
 
+- Does your  project use TypeScript: <b style="color:blue">NO</b>
+
+- Where does your code run: <b style="color:blue">Node</b>
+
+- How would you like to define a style for your project: <b style="color:blue">Answer questions about your style</b>
+
+- What format do you want your config file to be in: <b style="color:blue">JSON</b>
+
+- What style of indentation do you use: <b style="color:blue">Spaces</b>
+
+- What quotes do you use for strings: <b style="color:blue">Single</b>
+
+- What line endings do you use: <b style="color:blue">Unix</b>
+
+- Do you require semicolons: <b style="color:blue">Yes</b>
+
+- <small>eslint@latest</small></br> ? Would you like to install then now?  <b style="color:blue">Yes</b>
+
+
+
+
+
 ### 3. Para rodar a API é necessário o seguinte comando no Powershell
 ```powershell
 
