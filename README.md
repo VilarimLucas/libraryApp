@@ -46,11 +46,10 @@ npx sequelize db:migrate
 ```powershell
 
 npx eslint --init
-
-Need to install the following packages: eslint@8.51.0
-Ok to proceed (y) : y
-
 ```
+- Need to install the following packages: eslint@8.51.0 Ok to proceed (y) : y
+
+
 
 ### 3. Para rodar a API é necessário o seguinte comando no Powershell
 ```powershell
