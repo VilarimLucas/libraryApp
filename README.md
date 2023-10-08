@@ -47,33 +47,35 @@ npx sequelize db:migrate
 
 npx eslint --init
 ```
-- Need to install the following packages: eslint@8.51.0 Ok to proceed (y) : <b style="color:blue">y</b>
+- ? Need to install the following packages: eslint@8.51.0 Ok to proceed (y) : <b style="color:blue">y</b>
 
-- How would you like to use ESLint: <b style="color:blue">To check syntax, find problems, and enforce code style</b>
+- ? How would you like to use ESLint: <b style="color:blue">To check syntax, find problems, and enforce code style</b>
 
-- What type of modules does your project use: <b style="color:blue">ComonJS (require/exports)</b>
+- ? What type of modules does your project use: <b style="color:blue">ComonJS (require/exports)</b>
 
-- Which framework does your project use: <b style="color:blue">None of these</b>
+- ? Which framework does your project use: <b style="color:blue">None of these</b>
 
-- Does your  project use TypeScript: <b style="color:blue">NO</b>
+- ? Does your  project use TypeScript: <b style="color:blue">NO</b>
 
-- Where does your code run: <b style="color:blue">Node</b>
+- ? Where does your code run: <b style="color:blue">Node</b>
 
-- How would you like to define a style for your project: <b style="color:blue">Answer questions about your style</b>
+- ? How would you like to define a style for your project: <b style="color:blue">Answer questions about your style</b>
 
-- What format do you want your config file to be in: <b style="color:blue">JSON</b>
+- ? What format do you want your config file to be in: <b style="color:blue">JSON</b>
 
-- What style of indentation do you use: <b style="color:blue">Spaces</b>
+- ? What style of indentation do you use: <b style="color:blue">Spaces</b>
 
-- What quotes do you use for strings: <b style="color:blue">Single</b>
+- ? What quotes do you use for strings: <b style="color:blue">Single</b>
 
-- What line endings do you use: <b style="color:blue">Unix</b>
+- ? What line endings do you use: <b style="color:blue">Unix</b>
 
-- Do you require semicolons: <b style="color:blue">Yes</b>
+- ? Do you require semicolons: <b style="color:blue">Yes</b>
 
-- <small>eslint@latest</small></br> ? Would you like to install then now?  <b style="color:blue">Yes</b>
+- <small>eslint@latest</small></br> ? Would you like to install then now:  <b style="color:blue">Yes</b>
 
+- ? Do you require semicolons: <b style="color:blue">Yes</b>
 
+- ? Which package manager do you want to use: <b style="color:blue">npm</b>
 
 
 
