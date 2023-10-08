@@ -47,35 +47,35 @@ npx sequelize db:migrate
 
 npx eslint --init
 ```
-- ? Need to install the following packages: eslint@8.51.0 Ok to proceed (y) : <b style="font-size: larger; color: blue;">y</b>
+- ? <small>Need to install the following packages: eslint@8.51.0 Ok to proceed (y) : </small><b style="font-size: larger; color: blue;">y</b>
 
-- ? How would you like to use ESLint: <b style="font-size: larger; color: blue;">To check syntax, find problems, and enforce code style</b>
+- ? <small>How would you like to use ESLint: </small><b style="font-size: larger; color: blue;">To check syntax, find problems, and enforce code style</b>
 
-- ? What type of modules does your project use: <b style="font-size: larger; color: blue;">ComonJS (require/exports)</b>
+- ? <small>What type of modules does your project use: </small><b style="font-size: larger; color: blue;">ComonJS (require/exports)</b>
 
-- ? Which framework does your project use: <b style="font-size: larger; color: blue;">None of these</b>
+- ? <small>Which framework does your project use: </small><b style="font-size: larger; color: blue;">None of these</b>
 
-- ? Does your  project use TypeScript: <b style="font-size: larger; color: blue;">NO</b>
+- ? <small>Does your  project use TypeScript: </small><b style="font-size: larger; color: blue;">NO</b>
 
-- ? Where does your code run: <b style="font-size: larger; color: blue;">Node</b>
+- ? <small>Where does your code run: </small><b style="font-size: larger; color: blue;">Node</b>
 
-- ? How would you like to define a style for your project: <b style="font-size: larger; color: blue;">Answer questions about your style</b>
+- ? <small>How would you like to define a style for your project: </small><b style="font-size: larger; color: blue;">Answer questions about your style</b>
 
-- ? What format do you want your config file to be in: <b style="font-size: larger; color: blue;">JSON</b>
+- ? <small>What format do you want your config file to be in: </small><b style="font-size: larger; color: blue;">JSON</b>
 
-- ? What style of indentation do you use: <b style="font-size: larger; color: blue;">Spaces</b>
+- ? <small>What style of indentation do you use: </small><b style="font-size: larger; color: blue;">Spaces</b>
 
-- ? What quotes do you use for strings: <b style="font-size: larger; color: blue;">Single</b>
+- ? <small>What quotes do you use for strings: </small><b style="font-size: larger; color: blue;">Single</b>
 
-- ? What line endings do you use: <b style="font-size: larger; color: blue;">Unix</b>
+- ? <small>What line endings do you use: </small><b style="font-size: larger; color: blue;">Unix</b>
 
-- ? Do you require semicolons: <b style="font-size: larger; color: blue;">Yes</b>
+- ? <small>Do you require semicolons: </small><b style="font-size: larger; color: blue;">Yes</b>
 
-- <small>eslint@latest</small></br> ? Would you like to install then now:  <b style="font-size: larger; color: blue;">Yes</b>
+- <small>eslint@latest</br> ? Would you like to install then now:  </small><b style="font-size: larger; color: blue;">Yes</b>
 
-- ? Do you require semicolons: <b style="font-size: larger; color: blue;">Yes</b>
+- ? <small>Do you require semicolons: </small><b style="font-size: larger; color: blue;">Yes</b>
 
-- ? Which package manager do you want to use: <b style="font-size: larger; color: blue;">npm</b>
+- ? <small>Which package manager do you want to use: </small><b style="font-size: larger; color: blue;">npm</b>
 
 
 
