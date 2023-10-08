@@ -49,7 +49,7 @@ npx eslint --init
 ```
 <style>
     .text-blue{
-        color:blue;
+        color:#0366d6;
     }
 </style>
 
