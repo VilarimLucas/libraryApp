@@ -16,7 +16,7 @@ Este é o backend do projeto Livraria. Este guia irá ajudá-lo a configurar o a
 
 ## Instalação
 
-Siga os passos abaixo para configurar o ambiente de desenvolvimento do backend do Cubo Mágico.
+Siga os passos abaixo para configurar o ambiente de desenvolvimento do backend da Livraria.
 
 ### 1. Clone o Repositório
 
