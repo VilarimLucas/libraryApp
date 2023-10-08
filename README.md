@@ -47,41 +47,36 @@ npx sequelize db:migrate
 
 npx eslint --init
 ```
-<style>
-    .text-blue{
-        color:#0366d6;
-    }
-</style>
 
-- ? <small>Need to install the following packages: eslint@8.51.0 Ok to proceed (y) : </small><b style="font-size: larger; color: blue;"  class="text-blue">y</b>
+- ? <small>Need to install the following packages: eslint@8.51.0 Ok to proceed (y) : </small><b style="font-size: larger; color: #0366d6" >y</b>
 
-- ? <small>How would you like to use ESLint: </small><b style="font-size: larger; color: blue;"  class="text-blue">To check syntax, find problems, and enforce code style</b>
+- ? <small>How would you like to use ESLint: </small><b style="font-size: larger; color: #0366d6" >To check syntax, find problems, and enforce code style</b>
 
-- ? <small>What type of modules does your project use: </small><b style="font-size: larger; color: blue;"  class="text-blue">ComonJS (require/exports)</b>
+- ? <small>What type of modules does your project use: </small><b style="font-size: larger; color: #0366d6" >ComonJS (require/exports)</b>
 
-- ? <small>Which framework does your project use: </small><b style="font-size: larger; color: blue;"  class="text-blue">None of these</b>
+- ? <small>Which framework does your project use: </small><b style="font-size: larger; color: #0366d6" >None of these</b>
 
-- ? <small>Does your  project use TypeScript: </small><b style="font-size: larger; color: blue;"  class="text-blue">NO</b>
+- ? <small>Does your  project use TypeScript: </small><b style="font-size: larger; color: #0366d6" >NO</b>
 
-- ? <small>Where does your code run: </small><b style="font-size: larger; color: blue;"  class="text-blue">Node</b>
+- ? <small>Where does your code run: </small><b style="font-size: larger; color: #0366d6" >Node</b>
 
-- ? <small>How would you like to define a style for your project: </small><b style="font-size: larger; color: blue;"  class="text-blue">Answer questions about your style</b>
+- ? <small>How would you like to define a style for your project: </small><b style="font-size: larger; color: #0366d6" >Answer questions about your style</b>
 
-- ? <small>What format do you want your config file to be in: </small><b style="font-size: larger; color: blue;"  class="text-blue">JSON</b>
+- ? <small>What format do you want your config file to be in: </small><b style="font-size: larger; color: #0366d6" >JSON</b>
 
-- ? <small>What style of indentation do you use: </small><b style="font-size: larger; color: blue;"  class="text-blue">Spaces</b>
+- ? <small>What style of indentation do you use: </small><b style="font-size: larger; color: #0366d6" >Spaces</b>
 
-- ? <small>What quotes do you use for strings: </small><b style="font-size: larger; color: blue;"  class="text-blue">Single</b>
+- ? <small>What quotes do you use for strings: </small><b style="font-size: larger; color: #0366d6" >Single</b>
 
-- ? <small>What line endings do you use: </small><b style="font-size: larger; color: blue;"  class="text-blue">Unix</b>
+- ? <small>What line endings do you use: </small><b style="font-size: larger; color: #0366d6" >Unix</b>
 
-- ? <small>Do you require semicolons: </small><b style="font-size: larger; color: blue;"  class="text-blue">Yes</b>
+- ? <small>Do you require semicolons: </small><b style="font-size: larger; color: #0366d6" >Yes</b>
 
-- <small>eslint@latest</br> ? Would you like to install then now:  </small><b style="font-size: larger; color: blue;"  class="text-blue">Yes</b>
+- <small>eslint@latest</br> ? Would you like to install then now:  </small><b style="font-size: larger; color: #0366d6" >Yes</b>
 
-- ? <small>Do you require semicolons: </small><b style="font-size: larger; color: blue;"  class="text-blue">Yes</b>
+- ? <small>Do you require semicolons: </small><b style="font-size: larger; color: #0366d6" >Yes</b>
 
-- ? <small>Which package manager do you want to use: </small><b style="font-size: larger; color: blue;"  class="text-blue">npm</b>
+- ? <small>Which package manager do you want to use: </small><b style="font-size: larger; color: #0366d6" >npm</b>
 
 
 
