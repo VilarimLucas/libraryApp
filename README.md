@@ -24,8 +24,9 @@ Siga os passos abaixo para configurar o ambiente de desenvolvimento do backend d
 ```bash
 git clone https://github.com/VilarimLucas/libraryApp.git
 ```
-### 2. Configure o Backend NODE + EXPRESS
+### 2.1 Configure o Backend NODE + EXPRESS
 ```powershell
+
 cd libraryApp/backend
 
 npm install express --save
@@ -34,8 +35,21 @@ npm install --save sequelize
 npm install --save body-parser
 npm install --save mysql2
 npm install --save-dev sequelize-cli
+npm install dotenv
+
 npx sequelize db:create
 npx sequelize db:migrate
+```
+
+### 2.2 Configure o Backend NODE + EXPRESS: ESLINT
+
+```powershell
+
+npx eslint --init
+
+Need to install the following packages: eslint@8.51.0
+Ok to proceed (y) : y
+
 ```
 
 ### 3. Para rodar a API é necessário o seguinte comando no Powershell
