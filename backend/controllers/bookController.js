@@ -1,5 +1,3 @@
-const express = require('express');
-const router = express.Router();
 
 //pegamos a entidade em si dessa forma usando .Livro
 const Livro = require('../models').Book;
@@ -11,25 +9,25 @@ const Livro = require('../models').Book;
 // inner join publishingcompanies as pc on pc.id = b.fk_publishingcompany;
 
 //Busca Livro (GET)
-router.get('/', async (req, res) => {
+const all = async (req, res) => {
     await Livro.sequelize.query("select * from data_books",
         { model: Livro }).then(function (books) {
             var nbooks = JSON.parse(JSON.stringify(books));
             res.status(200).json(nbooks);
         });
-});
+};
 
 //Cadastra Livro (POST)
-router.post('/', async (req, res) => {
+const add = async (req, res) => {
     const { fk_publishingcompany, fk_category, fk_author, title } = req.body;
     const newEdit = await Livro.create({
         fk_publishingcompany, fk_category, fk_author, title
     })
     res.status(200).json({ message: 'Cadastrado com sucesso' });
-});
+};
 
 // Busca Livro por ID (GET)
-router.get('/:id', async (req, res) => {
+const specific = async (req, res) => {
     const livroId = req.params.id;
 
     try {
@@ -52,21 +50,21 @@ router.get('/:id', async (req, res) => {
         console.error('Erro ao buscar livro por ID:', error);
         res.status(500).json({ message: 'Erro interno do servidor' });
     }
-});
+};
 
 
 //Deleta Livro por id (DELETE)
-router.delete('/:id', async (req, res) => {
+const del = async (req, res) => {
     await Livro.destroy({
         where: {
             id: req.params.id,
         },
     });
     res.status(200).json({ message: 'Excluído com sucesso' })
-});
+};
 
 //Altera Livro por ID (PUT)
-router.put('/:id', async (req, res) => {
+const update = async (req, res) => {
     const { fk_publishingcompany, fk_category, fk_author, title } = req.body;
     await Livro.update(
         { fk_publishingcompany, fk_category, fk_author, title },
@@ -75,6 +73,12 @@ router.put('/:id', async (req, res) => {
         }
     );
     res.status(200).json({ message: 'Atualizado com sucesso' });
-});
+};
 
-module.exports = router;
+module.exports = {
+    all,
+    add,
+    specific,
+    update,
+    del
+};

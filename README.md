@@ -79,7 +79,7 @@ npx eslint --init
 
 
 
-### 3. Para rodar a API no modo DESENVOLVEDOR é necessário o seguinte comando no Powershell
+### 3.1 Para rodar a API no modo DESENVOLVEDOR é necessário o seguinte comando no Powershell
 ```powershell
 
 npm run dev
