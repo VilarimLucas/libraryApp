@@ -1,6 +1,8 @@
 # libraryApp
 App desenvolvido na aula de Laboratório web 16-09-2023, API REST, aplicação NODE+EXPRESS
 
+--------------------
+
 # Backend do Projeto
 
 Este é o backend do projeto Livraria. Este guia irá ajudá-lo a configurar o ambiente de desenvolvimento.
