@@ -1,9 +1,6 @@
-# libraryApp
-App desenvolvido na aula de Laboratório web 16-09-2023, API REST, aplicação NODE+EXPRESS
+# Backend do Projeto Cubo Mágico
 
-# Backend do Projeto
-
-Este é o backend do projeto Livraria. Este guia irá ajudá-lo a configurar o ambiente de desenvolvimento.
+Este é o backend do projeto Cubo Mágico. Este guia irá ajudá-lo a configurar o ambiente de desenvolvimento.
 
 ## Requisitos Prévios
 
@@ -20,11 +17,11 @@ Siga os passos abaixo para configurar o ambiente de desenvolvimento do backend d
 
 
 ```bash
-git clone https://github.com/VilarimLucas/libraryApp.git
+git clone https://github.com/VilarimLucas/cb-api.git
 ```
 ### 2. Configure o Backend NODE + EXPRESS
 ```powershell
-cd libraryApp/backend
+cd cb-api/backend
 
 npm install express --save
 npm install -g nodemon
@@ -41,9 +38,6 @@ npx sequelize db:migrate
 
 npm run dev
 ```
-
-
-
 
 
 
