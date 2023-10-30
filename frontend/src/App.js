@@ -2,6 +2,7 @@ import React from 'react'
 import GlobalStyle from './styles/global';
 import {Header} from './components/Header';
 import { Author } from './components/Author';
+import { Category } from './components/Category';
 
 
 const App = () => {
@@ -9,6 +10,7 @@ const App = () => {
         <>
             <Header/>
             <Author/>
+            <Category/>
             <GlobalStyle />
         </>
     )

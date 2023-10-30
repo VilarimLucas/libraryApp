@@ -70,19 +70,19 @@ export const Button = styled.button`
   font-weight: bold;
 `;
 
-export const AuthorListContainer = styled.div`
+export const CategoryListContainer = styled.div`
   max-height: 75px; /* Altura máxima de 50px com barra de rolagem se necessário */
   overflow-y: auto;
   width: 100%;
 `;
 
-export const AuthorList = styled.ul`
+export const CategoryList = styled.ul`
   list-style: none;
   padding: 0;
   margin: 0;
 `;
 
-export const AuthorItem = styled.li`
+export const CategoryItem = styled.li`
   font-size: 12px;
   width: 100%;
   word-break: break-word; /* Quebrar palavras longas em várias linhas */

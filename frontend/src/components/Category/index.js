@@ -2,56 +2,57 @@ import React, { useState, useEffect } from 'react';
 import { AiOutlinePlus } from 'react-icons/ai'; // Importe o ícone de adição
 import * as C from './styles';
 
-export const Author = () => {
-    const [authorName, setAuthorName] = useState('');
-    const [authors, setAuthors] = useState([]);
+
+export const Category = () => {
+    const [categoryDescription, setCategoryDescription] = useState('');
+    const [categorys, setCategorys] = useState([]);
     const [loading, setLoading] = useState(false);
 
     const handleSave = async () => {
-        if (!authorName) {
-            alert('Informe o nome do autor!');
+        if (!categoryDescription) {
+            alert('Informe o nome do Categoria!');
             return;
         }
 
         try {
-            // Enviar a solicitação POST para a API para adicionar um autor
-            const response = await fetch('http://localhost:3002/author/add', {
+            // Enviar a solicitação POST para a API para adicionar um Categoria
+            const response = await fetch('http://localhost:3002/category/add', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
                 },
-                body: JSON.stringify({ author_name: authorName }),
+                body: JSON.stringify({ category_description: categoryDescription }),
             });
 
             if (response.ok) {
-                alert('Autor cadastrado com sucesso!');
-                setAuthorName('');
+                alert('Categoria cadastrada com sucesso!');
+                setCategoryDescription('');
             } else {
-                alert('Erro ao cadastrar autor.');
+                alert('Erro ao cadastrar Categoria.');
             }
         } catch (error) {
-            console.error('Erro ao cadastrar autor:', error);
+            console.error('Erro ao cadastrar Categoria:', error);
         }
     };
 
     useEffect(() => {
-        // Buscar a lista de autores registrados através do endpoint GET
-        const fetchAuthors = async () => {
+        // Buscar a lista de Categoriaes registrados através do endpoint GET
+        const fetchCategorys = async () => {
             setLoading(true);
             try {
-                const response = await fetch('http://localhost:3002/author/all');
+                const response = await fetch('http://localhost:3002/category/all');
                 if (response.ok) {
                     const data = await response.json();
-                    setAuthors(data);
+                    setCategorys(data);
                 }
             } catch (error) {
-                console.error('Erro ao buscar autores:', error);
+                console.error('Erro ao buscar Categoriaes:', error);
             } finally {
                 setLoading(false);
             }
         };
 
-        fetchAuthors();
+        fetchCategorys();
     }, []);
 
     return (
@@ -63,9 +64,9 @@ export const Author = () => {
                         <C.InputGroup>
                             <C.InputContent>
                                 <C.Input
-                                    value={authorName}
-                                    placeholder='Digite o nome do Autor'
-                                    onChange={(e) => setAuthorName(e.target.value)}
+                                    value={categoryDescription}
+                                    placeholder='Digite o nome da Categoria'
+                                    onChange={(e) => setCategoryDescription(e.target.value)}
                                 />
                             </C.InputContent>
 
@@ -78,19 +79,19 @@ export const Author = () => {
 
 
                     <C.Col>
-                        <C.AuthorListContainer>
-                            <C.AuthorList>
+                        <C.CategoryListContainer>
+                            <C.CategoryList>
                                 {loading ? (
-                                    <p>Carregando autores...</p>
+                                    <p>Carregando Categoriaes...</p>
                                 ) : (
                                     <ul>
-                                        {authors.map((author) => (
-                                            <li key={author.id}>{author.author_name}</li>
+                                        {categorys.map((Category) => (
+                                            <li key={Category.id}>{Category.category_description}</li>
                                         ))}
                                     </ul>
                                 )}
-                            </C.AuthorList>
-                        </C.AuthorListContainer>
+                            </C.CategoryList>
+                        </C.CategoryListContainer>
                     </C.Col>
 
                 </C.Row>
